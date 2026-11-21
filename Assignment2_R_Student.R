@@ -18,7 +18,7 @@ n <- 36
 alpha <- 0.05
 
 # 문제 2. 표준오차를 구할 것: sigma / sqrt(n)
-standard_error <- sigma / sqrt(n)  # TODO
+standard_error <- sigma / sqrt(n)  
 
 # 문제 3. Z-검정통계량을 구할 것
 z_stat <- (x_bar - mu_0) / standard_error        
